@@ -146,17 +146,17 @@
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.31746031746031744,
-            "y": 0.5360501567398119,
+            "x": 0.31646825396825395,
+            "y": 0.5266457680250783,
             "uniqueID": 1717437297428,
             "ioValues": [
                 {
                     "name": "Leg height",
-                    "ioValue": 10
+                    "ioValue": 18
                 },
                 {
                     "name": "leg width",
-                    "ioValue": 10
+                    "ioValue": 3
                 }
             ],
             "topLevel": false,
@@ -164,16 +164,24 @@
                 {
                     "atomType": "Molecule",
                     "name": "Molecule",
-                    "x": 0.2718253968253968,
-                    "y": 0.3949843260188088,
+                    "x": 0.2698412698412698,
+                    "y": 0.39184952978056425,
                     "uniqueID": 1717437441824,
                     "ioValues": [
                         {
                             "name": "leg width",
-                            "ioValue": 10
+                            "ioValue": 3
                         },
                         {
                             "name": "Leg height",
+                            "ioValue": 18
+                        },
+                        {
+                            "name": "wood thickness",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "stool top diam",
                             "ioValue": 10
                         }
                     ],
@@ -182,8 +190,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.2708333333333333,
-                            "y": 0.322884012539185,
+                            "x": 0.26884920634920634,
+                            "y": 0.32601880877742945,
                             "uniqueID": 1717437454752,
                             "ioValues": [
                                 {
@@ -192,7 +200,7 @@
                                 },
                                 {
                                     "name": "y length",
-                                    "ioValue": 10
+                                    "ioValue": 3
                                 }
                             ]
                         },
@@ -225,7 +233,7 @@
                             "atomType": "Input",
                             "name": "Leg height",
                             "x": 0.013333333333333334,
-                            "y": 0.6614420062695925,
+                            "y": 0.6238244514106583,
                             "uniqueID": 1717437441410,
                             "ioValues": []
                         },
@@ -263,19 +271,6 @@
                             ]
                         },
                         {
-                            "atomType": "Circle",
-                            "name": "Circle",
-                            "x": 0.3353174603174603,
-                            "y": 0.8056426332288401,
-                            "uniqueID": 1717437482299,
-                            "ioValues": [
-                                {
-                                    "name": "diameter",
-                                    "ioValue": 3
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Move",
                             "name": "Move",
                             "x": 0.5357142857142857,
@@ -301,15 +296,90 @@
                             ]
                         },
                         {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.3353174603174603,
+                            "y": 0.8056426332288401,
+                            "uniqueID": 1717437482299,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 3
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Output",
                             "name": "Output",
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1717437441472,
                             "ioValues": []
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "wood thickness",
+                            "x": 0.013333333333333334,
+                            "y": 0.42006269592476486,
+                            "uniqueID": 1717437663750,
+                            "ioValues": []
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.4057539682539683,
+                            "y": 0.30094043887147337,
+                            "uniqueID": 1717437703409,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1717437454752
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "stool top diam",
+                            "x": 0.013333333333333334,
+                            "y": 0.793103448275862,
+                            "uniqueID": 1717437736510,
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1717437454752,
+                            "ap2ID": 1717437703409
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "y length",
+                            "ap2Primary": false,
+                            "ap1ID": 1717437441771,
+                            "ap2ID": 1717437454752
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "x length",
+                            "ap2Primary": false,
+                            "ap1ID": 1717437441771,
+                            "ap2ID": 1717437458943
+                        },
                         {
                             "ap1Name": "geometry",
                             "ap2Name": "3D shape 3",
@@ -318,11 +388,11 @@
                             "ap2ID": 1717437487212
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1717437482299,
-                            "ap2ID": 1717437498892
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "y length",
+                            "ap2Primary": false,
+                            "ap1ID": 1717437441410,
+                            "ap2ID": 1717437458943
                         },
                         {
                             "ap1Name": "geometry",
@@ -330,6 +400,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1717437498892,
                             "ap2ID": 1717437487212
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1717437482299,
+                            "ap2ID": 1717437498892
                         }
                     ],
                     "unitsIndex": 0,
