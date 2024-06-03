@@ -311,9 +311,9 @@
                         },
                         {
                             "atomType": "Equation",
-                            "name": "x -",
-                            "x": 0.4107142857142857,
-                            "y": 0.64576802507837,
+                            "name": "x - 2",
+                            "x": 0.3968253968253968,
+                            "y": 0.6363636363636364,
                             "uniqueID": 1717447943104,
                             "ioValues": [
                                 {
@@ -321,7 +321,7 @@
                                     "ioValue": 18
                                 }
                             ],
-                            "currentEquation": "x -"
+                            "currentEquation": "x - 2"
                         },
                         {
                             "atomType": "Hull",
@@ -365,38 +365,13 @@
                         {
                             "atomType": "Circle",
                             "name": "Circle",
-                            "x": 0.32242063492063494,
-                            "y": 0.8746081504702194,
+                            "x": 0.40674603174603174,
+                            "y": 0.884012539184953,
                             "uniqueID": 1717437482299,
                             "ioValues": [
                                 {
                                     "name": "diameter",
                                     "ioValue": 8
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Move",
-                            "name": "Move",
-                            "x": 0.5555555555555556,
-                            "y": 0.793103448275862,
-                            "uniqueID": 1717437498892,
-                            "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": 1717437482299
-                                },
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 4
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 18
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 0
                                 }
                             ]
                         },
@@ -418,6 +393,31 @@
                                 {
                                     "name": "3D shape 7",
                                     "ioValue": 1717447859060
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Move",
+                            "name": "Move",
+                            "x": 0.5773809523809523,
+                            "y": 0.793103448275862,
+                            "uniqueID": 1717437498892,
+                            "ioValues": [
+                                {
+                                    "name": "geometry",
+                                    "ioValue": 1717437482299
+                                },
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 4
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 16
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 0
                                 }
                             ]
                         },
@@ -536,17 +536,17 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "3D shape 4",
-                            "ap2Primary": false,
-                            "ap1ID": 1717437498892,
-                            "ap2ID": 1717438062539
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
                             "ap1ID": 1717438062539,
                             "ap2ID": 1717437441472
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 4",
+                            "ap2Primary": false,
+                            "ap1ID": 1717437498892,
+                            "ap2ID": 1717438062539
                         }
                     ],
                     "unitsIndex": 0,
