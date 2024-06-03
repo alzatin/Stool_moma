@@ -7,53 +7,41 @@
     "ioValues": [
         {
             "name": "Round Top Diameter",
-            "ioValue": 10
+            "ioValue": 12
         },
         {
             "name": "Round Top Thickness",
-            "ioValue": 10
+            "ioValue": 1.5
         }
     ],
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1717437032980,
-            "ioValues": []
-        },
-        {
             "atomType": "Input",
-            "name": "Round Top Diameter",
+            "name": "Round Top Thickness",
             "x": 0.013333333333333334,
-            "y": 0.4952978056426332,
-            "uniqueID": 1717437039851,
+            "y": 0.3573667711598746,
+            "uniqueID": 1717437112554,
             "ioValues": []
         },
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.30753968253968256,
-            "y": 0.3605015673981191,
+            "x": 0.4087301587301588,
+            "y": 0.3448275862068966,
             "uniqueID": 1717437069579,
             "ioValues": [
                 {
                     "name": "Round Top Diameter",
-                    "ioValue": 10
+                    "ioValue": 12
+                },
+                {
+                    "name": "Round Top Thickness",
+                    "ioValue": 1.5
                 }
             ],
             "topLevel": false,
             "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.98,
-                    "y": 0.5,
-                    "uniqueID": 1717437069485,
-                    "ioValues": []
-                },
                 {
                     "atomType": "Input",
                     "name": "Round Top Diameter",
@@ -71,15 +59,15 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 12
                         }
                     ]
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.5248015873015873,
-                    "y": 0.48589341692789967,
+                    "x": 0.5317460317460317,
+                    "y": 0.48275862068965514,
                     "uniqueID": 1717437098494,
                     "ioValues": [
                         {
@@ -88,9 +76,30 @@
                         },
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 1.5
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1717437069485,
+                    "ioValues": [
+                        {
+                            "name": "number or geometry",
+                            "ioValue": 1717437098494
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Round Top Thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.5987460815047022,
+                    "uniqueID": 1717437192939,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -107,6 +116,20 @@
                     "ap2Primary": true,
                     "ap1ID": 1717437088842,
                     "ap2ID": 1717437098494
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1717437098494,
+                    "ap2ID": 1717437069485
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 1717437192939,
+                    "ap2ID": 1717437098494
                 }
             ],
             "unitsIndex": 0,
@@ -114,14 +137,57 @@
         },
         {
             "atomType": "Input",
-            "name": "Round Top Thickness",
+            "name": "Round Top Diameter",
             "x": 0.013333333333333334,
-            "y": 0.3573667711598746,
-            "uniqueID": 1717437112554,
+            "y": 0.4952978056426332,
+            "uniqueID": 1717437039851,
             "ioValues": []
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1717437032980,
+            "ioValues": []
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.7628968253968255,
+            "y": 0.43260188087774293,
+            "uniqueID": 1717437265134,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1717437069579
+                }
+            ]
         }
     ],
-    "allConnectors": [],
+    "allConnectors": [
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Round Top Thickness",
+            "ap2Primary": false,
+            "ap1ID": 1717437112554,
+            "ap2ID": 1717437069579
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1717437069579,
+            "ap2ID": 1717437265134
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Round Top Diameter",
+            "ap2Primary": false,
+            "ap1ID": 1717437039851,
+            "ap2ID": 1717437069579
+        }
+    ],
     "unitsIndex": 0,
     "fileTypeVersion": 1,
     "filetypeVersion": 1
