@@ -20,15 +20,23 @@
             "atomType": "Input",
             "name": "Round Top Thickness",
             "x": 0.013333333333333334,
-            "y": 0.3573667711598746,
+            "y": 0.25705329153605017,
             "uniqueID": 1717437112554,
+            "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "Round Top Diameter",
+            "x": 0.013333333333333334,
+            "y": 0.3887147335423197,
+            "uniqueID": 1717437039851,
             "ioValues": []
         },
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.4087301587301588,
-            "y": 0.3448275862068966,
+            "x": 0.37797619047619047,
+            "y": 0.29153605015673983,
             "uniqueID": 1717437069579,
             "ioValues": [
                 {
@@ -64,6 +72,14 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Round Top Thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.5987460815047022,
+                    "uniqueID": 1717437192939,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 0.5317460317460317,
@@ -92,14 +108,6 @@
                             "ioValue": 1717437098494
                         }
                     ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Round Top Thickness",
-                    "x": 0.013333333333333334,
-                    "y": 0.5987460815047022,
-                    "uniqueID": 1717437192939,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -118,30 +126,35 @@
                     "ap2ID": 1717437098494
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 1717437098494,
-                    "ap2ID": 1717437069485
-                },
-                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "height",
                     "ap2Primary": false,
                     "ap1ID": 1717437192939,
                     "ap2ID": 1717437098494
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 1717437098494,
+                    "ap2ID": 1717437069485
                 }
             ],
             "unitsIndex": 0,
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Input",
-            "name": "Round Top Diameter",
-            "x": 0.013333333333333334,
-            "y": 0.4952978056426332,
-            "uniqueID": 1717437039851,
-            "ioValues": []
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.7291666666666666,
+            "y": 0.4075235109717868,
+            "uniqueID": 1717437265134,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 1717437069579
+                }
+            ]
         },
         {
             "atomType": "Output",
@@ -152,17 +165,51 @@
             "ioValues": []
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.7628968253968255,
-            "y": 0.43260188087774293,
-            "uniqueID": 1717437265134,
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.31746031746031744,
+            "y": 0.5360501567398119,
+            "uniqueID": 1717437297428,
             "ioValues": [
                 {
-                    "name": "3D shape 1",
-                    "ioValue": 1717437069579
+                    "name": "Leg height",
+                    "ioValue": 10
+                },
+                {
+                    "name": "name1",
+                    "ioValue": 10
                 }
-            ]
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.98,
+                    "y": 0.5,
+                    "uniqueID": 1717437297554,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Leg height",
+                    "x": 0.013333333333333334,
+                    "y": 0.6614420062695925,
+                    "uniqueID": 1717437352419,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "name1",
+                    "x": 0.013333333333333334,
+                    "y": 0.5297805642633229,
+                    "uniqueID": 1717437382471,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "unitsIndex": 0,
+            "fileTypeVersion": 1
         }
     ],
     "allConnectors": [
@@ -174,18 +221,18 @@
             "ap2ID": 1717437069579
         },
         {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 1717437069579,
-            "ap2ID": 1717437265134
-        },
-        {
             "ap1Name": "number or geometry",
             "ap2Name": "Round Top Diameter",
             "ap2Primary": false,
             "ap1ID": 1717437039851,
             "ap2ID": 1717437069579
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1717437069579,
+            "ap2ID": 1717437265134
         }
     ],
     "unitsIndex": 0,
