@@ -233,8 +233,8 @@
                         {
                             "atomType": "Equation",
                             "name": "x /2",
-                            "x": 0.2847222222222222,
-                            "y": 0.4420062695924765,
+                            "x": 0.2718253968253968,
+                            "y": 0.5015673981191223,
                             "uniqueID": 1717447880835,
                             "ioValues": [
                                 {
@@ -255,8 +255,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.4216269841269842,
-                            "y": 0.45454545454545453,
+                            "x": 0.3492063492063492,
+                            "y": 0.8526645768025078,
                             "uniqueID": 1717447859060,
                             "ioValues": [
                                 {
@@ -269,7 +269,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 9
+                                    "ioValue": 7
                                 },
                                 {
                                     "name": "zDist",
@@ -311,6 +311,23 @@
                             ]
                         },
                         {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.2490079365079365,
+                            "y": 0.6802507836990596,
+                            "uniqueID": 1717437458943,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 3
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 14
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Equation",
                             "name": "x -4",
                             "x": 0.3978174603174603,
@@ -325,21 +342,18 @@
                             "currentEquation": "x -4"
                         },
                         {
-                            "atomType": "Rectangle",
-                            "name": "Rectangle",
-                            "x": 0.2698412698412698,
-                            "y": 0.6896551724137931,
-                            "uniqueID": 1717437458943,
+                            "atomType": "Equation",
+                            "name": "x - 4",
+                            "x": 0.16666666666666666,
+                            "y": 0.7366771159874608,
+                            "uniqueID": 1717448651255,
                             "ioValues": [
                                 {
-                                    "name": "x length",
-                                    "ioValue": 3
-                                },
-                                {
-                                    "name": "y length",
-                                    "ioValue": 19
+                                    "name": "x",
+                                    "ioValue": 18
                                 }
-                            ]
+                            ],
+                            "currentEquation": "x - 4"
                         },
                         {
                             "atomType": "Input",
@@ -369,13 +383,13 @@
                         {
                             "atomType": "Equation",
                             "name": "x /2",
-                            "x": 0.1765873015873016,
-                            "y": 0.8526645768025078,
+                            "x": 0.24603174603174605,
+                            "y": 0.9467084639498433,
                             "uniqueID": 1717448165538,
                             "ioValues": [
                                 {
                                     "name": "x",
-                                    "ioValue": 18
+                                    "ioValue": 14
                                 }
                             ],
                             "currentEquation": "x /2"
@@ -383,8 +397,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.7390873015873015,
-                            "y": 0.54858934169279,
+                            "x": 0.7668650793650793,
+                            "y": 0.554858934169279,
                             "uniqueID": 1717438062539,
                             "ioValues": [
                                 {
@@ -417,7 +431,7 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5773809523809523,
+                            "x": 0.5833333333333334,
                             "y": 0.793103448275862,
                             "uniqueID": 1717437498892,
                             "ioValues": [
@@ -451,24 +465,6 @@
                                     "ioValue": 1717438062539
                                 }
                             ]
-                        },
-                        {
-                            "atomType": "Equation",
-                            "name": "x + y",
-                            "x": 0.16666666666666666,
-                            "y": 0.7366771159874608,
-                            "uniqueID": 1717448651255,
-                            "ioValues": [
-                                {
-                                    "name": "x",
-                                    "ioValue": 18
-                                },
-                                {
-                                    "name": "y",
-                                    "ioValue": 1
-                                }
-                            ],
-                            "currentEquation": "x + y"
                         }
                     ],
                     "allConnectors": [
@@ -540,13 +536,6 @@
                             "ap2Name": "x",
                             "ap2Primary": false,
                             "ap1ID": 1717437441410,
-                            "ap2ID": 1717448165538
-                        },
-                        {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "x",
-                            "ap2Primary": false,
-                            "ap1ID": 1717437441410,
                             "ap2ID": 1717448488083
                         },
                         {
@@ -564,6 +553,13 @@
                             "ap2ID": 1717438062539
                         },
                         {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1717437458943,
+                            "ap2ID": 1717447859060
+                        },
+                        {
                             "ap1Name": "result",
                             "ap2Name": "yDist",
                             "ap2Primary": false,
@@ -571,11 +567,18 @@
                             "ap2ID": 1717437498892
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1717437458943,
-                            "ap2ID": 1717447859060
+                            "ap1Name": "result",
+                            "ap2Name": "x",
+                            "ap2Primary": false,
+                            "ap1ID": 1717447943104,
+                            "ap2ID": 1717448165538
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "y length",
+                            "ap2Primary": false,
+                            "ap1ID": 1717448651255,
+                            "ap2ID": 1717437458943
                         },
                         {
                             "ap1Name": "result",
@@ -604,13 +607,6 @@
                             "ap2Primary": false,
                             "ap1ID": 1717437498892,
                             "ap2ID": 1717438062539
-                        },
-                        {
-                            "ap1Name": "result",
-                            "ap2Name": "y length",
-                            "ap2Primary": false,
-                            "ap1ID": 1717448651255,
-                            "ap2ID": 1717437458943
                         }
                     ],
                     "unitsIndex": 0,
