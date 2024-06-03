@@ -6,12 +6,12 @@
     "uniqueID": 1717437023984,
     "ioValues": [
         {
-            "name": "Round Top Diameter",
-            "ioValue": 12
-        },
-        {
             "name": "Round Top Thickness",
             "ioValue": 1.5
+        },
+        {
+            "name": "Round Top Diameter",
+            "ioValue": 12
         }
     ],
     "topLevel": true,
@@ -28,15 +28,15 @@
             "atomType": "Input",
             "name": "Round Top Diameter",
             "x": 0.013333333333333334,
-            "y": 0.3887147335423197,
+            "y": 0.38557993730407525,
             "uniqueID": 1717437039851,
             "ioValues": []
         },
         {
             "atomType": "Molecule",
             "name": "Molecule",
-            "x": 0.37797619047619047,
-            "y": 0.29153605015673983,
+            "x": 0.3819444444444444,
+            "y": 0.30094043887147337,
             "uniqueID": 1717437069579,
             "ioValues": [
                 {
@@ -61,8 +61,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.34226190476190477,
-                    "y": 0.3573667711598746,
+                    "x": 0.34027777777777773,
+                    "y": 0.35423197492163006,
                     "uniqueID": 1717437088842,
                     "ioValues": [
                         {
@@ -82,8 +82,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.5317460317460317,
-                    "y": 0.48275862068965514,
+                    "x": 0.5357142857142857,
+                    "y": 0.48902821316614425,
                     "uniqueID": 1717437098494,
                     "ioValues": [
                         {
@@ -151,12 +151,12 @@
             "uniqueID": 1717437297428,
             "ioValues": [
                 {
-                    "name": "Leg height",
-                    "ioValue": 18
-                },
-                {
                     "name": "leg width",
                     "ioValue": 3
+                },
+                {
+                    "name": "Leg height",
+                    "ioValue": 18
                 }
             ],
             "topLevel": false,
@@ -169,16 +169,16 @@
                     "uniqueID": 1717437441824,
                     "ioValues": [
                         {
+                            "name": "wood thickness",
+                            "ioValue": 10
+                        },
+                        {
                             "name": "leg width",
                             "ioValue": 3
                         },
                         {
                             "name": "Leg height",
                             "ioValue": 18
-                        },
-                        {
-                            "name": "wood thickness",
-                            "ioValue": 10
                         },
                         {
                             "name": "stool top diam",
@@ -360,12 +360,7 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1717437441472,
-                            "ioValues": [
-                                {
-                                    "name": "number or geometry",
-                                    "ioValue": 1717437487212
-                                }
-                            ]
+                            "ioValues": []
                         }
                     ],
                     "allConnectors": [
