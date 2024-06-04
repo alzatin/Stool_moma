@@ -233,7 +233,7 @@
                         {
                             "atomType": "Equation",
                             "name": "x - y/2",
-                            "x": 0.40409482758620685,
+                            "x": 0.4019396551724138,
                             "y": 0.329153605015674,
                             "uniqueID": 1717448488083,
                             "ioValues": [
@@ -351,21 +351,17 @@
                         },
                         {
                             "atomType": "Equation",
-                            "name": "x - y/2",
-                            "x": 0.39224137931034486,
-                            "y": 0.6144200626959248,
+                            "name": "x -3",
+                            "x": 0.38254310344827586,
+                            "y": 0.6206896551724138,
                             "uniqueID": 1717447943104,
                             "ioValues": [
                                 {
                                     "name": "x",
                                     "ioValue": 18
-                                },
-                                {
-                                    "name": "y",
-                                    "ioValue": 6
                                 }
                             ],
-                            "currentEquation": "x - y/2"
+                            "currentEquation": "x -3"
                         },
                         {
                             "atomType": "Rectangle",
@@ -387,8 +383,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5441810344827586,
-                            "y": 0.5705329153605015,
+                            "x": 0.533405172413793,
+                            "y": 0.567398119122257,
                             "uniqueID": 1717437498892,
                             "ioValues": [
                                 {
@@ -434,8 +430,8 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.7780172413793104,
-                            "y": 0.4043887147335423,
+                            "x": 0.7790948275862069,
+                            "y": 0.4137931034482759,
                             "uniqueID": 1717448984635,
                             "ioValues": [
                                 {
@@ -463,19 +459,6 @@
                             "currentEquation": "x /2"
                         },
                         {
-                            "atomType": "Circle",
-                            "name": "Circle",
-                            "x": 0.3911637931034483,
-                            "y": 0.9247648902821316,
-                            "uniqueID": 1717437482299,
-                            "ioValues": [
-                                {
-                                    "name": "diameter",
-                                    "ioValue": 6
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Move",
                             "name": "Move",
                             "x": 0.6831896551724138,
@@ -501,6 +484,19 @@
                             ]
                         },
                         {
+                            "atomType": "Circle",
+                            "name": "Circle",
+                            "x": 0.3911637931034483,
+                            "y": 0.9247648902821316,
+                            "uniqueID": 1717437482299,
+                            "ioValues": [
+                                {
+                                    "name": "diameter",
+                                    "ioValue": 6
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Equation",
                             "name": "-x",
                             "x": 0.5301724137931034,
@@ -517,8 +513,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.8545258620689655,
-                            "y": 0.5987460815047022,
+                            "x": 0.8577586206896552,
+                            "y": 0.5893416927899686,
                             "uniqueID": 1717524858918,
                             "ioValues": [
                                 {
@@ -730,17 +726,17 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1717437482299,
-                            "ap2ID": 1717437498892
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "geometry2",
                             "ap2Primary": false,
                             "ap1ID": 1717448868152,
                             "ap2ID": 1717448984635
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1717437482299,
+                            "ap2ID": 1717437498892
                         },
                         {
                             "ap1Name": "result",
