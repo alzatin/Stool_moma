@@ -190,8 +190,8 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.24702380952380953,
-                            "y": 0.25078369905956116,
+                            "x": 0.2510775862068965,
+                            "y": 0.21316614420062696,
                             "uniqueID": 1717437454752,
                             "ioValues": [
                                 {
@@ -410,6 +410,23 @@
                             ]
                         },
                         {
+                            "atomType": "Difference",
+                            "name": "Difference",
+                            "x": 0.7230603448275862,
+                            "y": 0.45454545454545453,
+                            "uniqueID": 1717448984635,
+                            "ioValues": [
+                                {
+                                    "name": "geometry2",
+                                    "ioValue": 1717449064389
+                                },
+                                {
+                                    "name": "geometry1",
+                                    "ioValue": 1717438062539
+                                }
+                            ]
+                        },
+                        {
                             "atomType": "Circle",
                             "name": "Circle",
                             "x": 0.39087301587301587,
@@ -439,8 +456,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5257936507936508,
-                            "y": 0.8589341692789969,
+                            "x": 0.5226293103448275,
+                            "y": 0.8526645768025078,
                             "uniqueID": 1717448868152,
                             "ioValues": [
                                 {
@@ -462,32 +479,32 @@
                             ]
                         },
                         {
-                            "atomType": "Difference",
-                            "name": "Difference",
-                            "x": 0.7230603448275862,
-                            "y": 0.45454545454545453,
-                            "uniqueID": 1717448984635,
+                            "atomType": "Extrude",
+                            "name": "Extrude",
+                            "x": 0.8480603448275863,
+                            "y": 0.5736677115987461,
+                            "uniqueID": 1717524858918,
                             "ioValues": [
                                 {
-                                    "name": "geometry2",
-                                    "ioValue": 1717449064389
+                                    "name": "geometry",
+                                    "ioValue": 1717448984635
                                 },
                                 {
-                                    "name": "geometry1",
-                                    "ioValue": 1717438062539
+                                    "name": "height",
+                                    "ioValue": 1
                                 }
                             ]
                         },
                         {
                             "atomType": "GitHubMolecule",
                             "name": "Scale ",
-                            "x": 0.6150793650793651,
+                            "x": 0.615301724137931,
                             "y": 0.8871473354231975,
                             "uniqueID": 1717449064389,
                             "ioValues": [
                                 {
                                     "name": "scale",
-                                    "ioValue": 1.02
+                                    "ioValue": 1
                                 },
                                 {
                                     "name": "shape",
@@ -525,7 +542,7 @@
                                         },
                                         {
                                             "name": "scale",
-                                            "ioValue": 1.02
+                                            "ioValue": 1
                                         }
                                     ],
                                     "code": "//Inputs:[shape, scale];\nconsole.log(shape)\nconsole.log(scale)\n\nreturn [library[shape].geometry[0].clone().scale(scale)]\n//what you return should be a replicad geometry\n\n//Learn more about all of the available methods at \n //https://replicad.xyz/docs/introapp/UserGuide.html \n"
@@ -577,22 +594,10 @@
                             "x": 0.98,
                             "y": 0.5,
                             "uniqueID": 1717437441472,
-                            "ioValues": []
-                        },
-                        {
-                            "atomType": "Extrude",
-                            "name": "Extrude",
-                            "x": 0.8566810344827587,
-                            "y": 0.5987460815047022,
-                            "uniqueID": 1717524858918,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": 1717448984635
-                                },
-                                {
-                                    "name": "height",
-                                    "ioValue": 1
+                                    "name": "number or geometry",
+                                    "ioValue": 1717524858918
                                 }
                             ]
                         }
@@ -749,6 +754,13 @@
                             "ap1Name": "geometry",
                             "ap2Name": "geometry",
                             "ap2Primary": true,
+                            "ap1ID": 1717448984635,
+                            "ap2ID": 1717524858918
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
                             "ap1ID": 1717437482299,
                             "ap2ID": 1717437498892
                         },
@@ -768,10 +780,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1717448984635,
-                            "ap2ID": 1717524858918
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 1717524858918,
+                            "ap2ID": 1717437441472
                         },
                         {
                             "ap1Name": "Geometry",
