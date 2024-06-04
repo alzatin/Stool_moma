@@ -157,6 +157,10 @@
                 {
                     "name": "Leg height",
                     "ioValue": 18
+                },
+                {
+                    "name": "top width",
+                    "ioValue": 12
                 }
             ],
             "topLevel": false,
@@ -164,8 +168,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "leg side",
-                    "x": 0.3135775862068965,
-                    "y": 0.22257053291536052,
+                    "x": 0.2747844827586207,
+                    "y": 0.23197492163009406,
                     "uniqueID": 1717437441824,
                     "ioValues": [
                         {
@@ -756,9 +760,34 @@
                     "atomType": "Input",
                     "name": "leg width",
                     "x": 0.013333333333333334,
-                    "y": 0.5297805642633229,
+                    "y": 0.3605015673981191,
                     "uniqueID": 1717437382471,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.32650862068965514,
+                    "y": 0.48275862068965514,
+                    "uniqueID": 1717525422226,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 1717437441824
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -777,29 +806,51 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.3987068965517241,
-                    "y": 0.4043887147335423,
-                    "uniqueID": 1717525422226,
+                    "atomType": "Move",
+                    "name": "Move",
+                    "x": 0.4482758620689655,
+                    "y": 0.6551724137931034,
+                    "uniqueID": 1717525477190,
                     "ioValues": [
                         {
                             "name": "geometry",
-                            "ioValue": 1717437441824
+                            "ioValue": 1717525422226
                         },
                         {
-                            "name": "x-axis degrees",
+                            "name": "xDist",
+                            "ioValue": 15
+                        },
+                        {
+                            "name": "yDist",
                             "ioValue": 0
                         },
                         {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
+                            "name": "zDist",
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "top width",
+                    "x": 0.013333333333333334,
+                    "y": 0.5,
+                    "uniqueID": 1717525499258,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "x + 3",
+                    "x": 0.2510775862068965,
+                    "y": 0.7115987460815046,
+                    "uniqueID": 1717525511379,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 12
+                        }
+                    ],
+                    "currentEquation": "x + 3"
                 }
             ],
             "allConnectors": [
@@ -818,11 +869,32 @@
                     "ap2ID": 1717437441824
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 1717525422226,
+                    "ap2ID": 1717525477190
+                },
+                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "Leg height",
                     "ap2Primary": false,
                     "ap1ID": 1717437352419,
                     "ap2ID": 1717437441824
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap2Primary": false,
+                    "ap1ID": 1717525499258,
+                    "ap2ID": 1717525511379
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1717525511379,
+                    "ap2ID": 1717525477190
                 }
             ],
             "unitsIndex": 0,
