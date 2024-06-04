@@ -925,24 +925,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "x+y/2",
-                    "x": 0.2370572207084469,
-                    "y": 0.43260188087774293,
-                    "uniqueID": 1717525511379,
-                    "ioValues": [
-                        {
-                            "name": "x",
-                            "ioValue": 12
-                        },
-                        {
-                            "name": "y",
-                            "ioValue": 2
-                        }
-                    ],
-                    "currentEquation": "x+y/2"
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 0.3424159854677566,
@@ -966,6 +948,24 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "x+y/2",
+                    "x": 0.2370572207084469,
+                    "y": 0.43260188087774293,
+                    "uniqueID": 1717525511379,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 12
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 2
+                        }
+                    ],
+                    "currentEquation": "x+y/2"
                 },
                 {
                     "atomType": "Input",
@@ -1026,6 +1026,14 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Input",
+                    "name": "leg wood thickness",
+                    "x": 0.013333333333333334,
+                    "y": 0.8087774294670846,
+                    "uniqueID": 1717529953151,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Color",
                     "name": "Color",
                     "x": 0.4713896457765668,
@@ -1038,14 +1046,6 @@
                         }
                     ],
                     "selectedColorIndex": 2
-                },
-                {
-                    "atomType": "Input",
-                    "name": "leg wood thickness",
-                    "x": 0.013333333333333334,
-                    "y": 0.8087774294670846,
-                    "uniqueID": 1717529953151,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Equation",
@@ -1180,17 +1180,17 @@
                     "ap2ID": 1717528041929
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap2Primary": false,
-                    "ap1ID": 1717525511379,
-                    "ap2ID": 1717525477190
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 1717525422226,
+                    "ap2ID": 1717525477190
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1717525511379,
                     "ap2ID": 1717525477190
                 },
                 {
@@ -1229,18 +1229,18 @@
                     "ap2ID": 1717437441824
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 1717527299565,
-                    "ap2ID": 1717527309802
-                },
-                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x",
                     "ap2Primary": false,
                     "ap1ID": 1717529953151,
                     "ap2ID": 1717529969130
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 1717527299565,
+                    "ap2ID": 1717527309802
                 },
                 {
                     "ap1Name": "result",
