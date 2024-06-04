@@ -165,6 +165,14 @@
             ]
         },
         {
+            "atomType": "Input",
+            "name": "Leg height",
+            "x": 0.013333333333333334,
+            "y": 0.5642633228840126,
+            "uniqueID": 1717529835242,
+            "ioValues": []
+        },
+        {
             "atomType": "Move",
             "name": "Move",
             "x": 0.47683923705722076,
@@ -188,14 +196,6 @@
                     "ioValue": 18
                 }
             ]
-        },
-        {
-            "atomType": "Input",
-            "name": "Leg height",
-            "x": 0.013333333333333334,
-            "y": 0.5642633228840126,
-            "uniqueID": 1717529835242,
-            "ioValues": []
         },
         {
             "atomType": "Molecule",
@@ -951,6 +951,14 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "top width",
+                    "x": 0.013333333333333334,
+                    "y": 0.5,
+                    "uniqueID": 1717525499258,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Equation",
                     "name": "x + 0.75",
                     "x": 0.20980926430517713,
@@ -963,14 +971,6 @@
                         }
                     ],
                     "currentEquation": "x + 0.75"
-                },
-                {
-                    "atomType": "Input",
-                    "name": "top width",
-                    "x": 0.013333333333333334,
-                    "y": 0.5,
-                    "uniqueID": 1717525499258,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Rotate",
@@ -1202,13 +1202,6 @@
                     "ap2ID": 1717527309802
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap2Primary": false,
-                    "ap1ID": 1717525511379,
-                    "ap2ID": 1717525477190
-                },
-                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "x",
                     "ap2Primary": false,
@@ -1221,6 +1214,13 @@
                     "ap2Primary": false,
                     "ap1ID": 1717525499258,
                     "ap2ID": 1717528041929
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 1717525511379,
+                    "ap2ID": 1717525477190
                 },
                 {
                     "ap1Name": "geometry",
@@ -1356,7 +1356,7 @@
             "atomType": "CutLayout",
             "name": "Cut Layout",
             "x": 0.7665758401453224,
-            "y": 0.3040752351097179,
+            "y": 0.31974921630094044,
             "uniqueID": 1717531187738,
             "ioValues": [
                 {
@@ -1445,18 +1445,18 @@
             "ap2ID": 1717528150072
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 3",
-            "ap2Primary": false,
-            "ap1ID": 1717528150072,
-            "ap2ID": 1717437265134
-        },
-        {
             "ap1Name": "number or geometry",
             "ap2Name": "Leg height",
             "ap2Primary": false,
             "ap1ID": 1717529835242,
             "ap2ID": 1717437297428
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1717528150072,
+            "ap2ID": 1717437265134
         },
         {
             "ap1Name": "Geometry",
