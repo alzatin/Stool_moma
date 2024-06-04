@@ -190,13 +190,13 @@
                         {
                             "atomType": "Rectangle",
                             "name": "Rectangle",
-                            "x": 0.2510775862068965,
-                            "y": 0.21316614420062696,
+                            "x": 0.31573275862068967,
+                            "y": 0.21630094043887146,
                             "uniqueID": 1717437454752,
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 10
+                                    "ioValue": 7.5
                                 },
                                 {
                                     "name": "y length",
@@ -255,8 +255,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5763888888888888,
-                            "y": 0.2006269592476489,
+                            "x": 0.5700431034482758,
+                            "y": 0.1786833855799373,
                             "uniqueID": 1717437703409,
                             "ioValues": [
                                 {
@@ -311,23 +311,6 @@
                             ]
                         },
                         {
-                            "atomType": "Rectangle",
-                            "name": "Rectangle",
-                            "x": 0.2490079365079365,
-                            "y": 0.6802507836990596,
-                            "uniqueID": 1717437458943,
-                            "ioValues": [
-                                {
-                                    "name": "x length",
-                                    "ioValue": 3
-                                },
-                                {
-                                    "name": "y length",
-                                    "ioValue": 14
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Assembly",
                             "name": "Assembly",
                             "x": 0.6756465517241379,
@@ -345,6 +328,23 @@
                                 {
                                     "name": "3D shape 10",
                                     "ioValue": 1717447859060
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.2490079365079365,
+                            "y": 0.6802507836990596,
+                            "uniqueID": 1717437458943,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 3
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 14
                                 }
                             ]
                         },
@@ -377,14 +377,6 @@
                             "currentEquation": "x - 4"
                         },
                         {
-                            "atomType": "Input",
-                            "name": "stool top diam",
-                            "x": 0.013333333333333334,
-                            "y": 0.793103448275862,
-                            "uniqueID": 1717437736510,
-                            "ioValues": []
-                        },
-                        {
                             "atomType": "Move",
                             "name": "Move",
                             "x": 0.5366379310344828,
@@ -408,6 +400,14 @@
                                     "ioValue": 0
                                 }
                             ]
+                        },
+                        {
+                            "atomType": "Input",
+                            "name": "stool top diam",
+                            "x": 0.013333333333333334,
+                            "y": 0.793103448275862,
+                            "uniqueID": 1717437736510,
+                            "ioValues": []
                         },
                         {
                             "atomType": "Difference",
@@ -456,8 +456,8 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.6799568965517242,
-                            "y": 0.7586206896551725,
+                            "x": 0.6767241379310346,
+                            "y": 0.7460815047021944,
                             "uniqueID": 1717448868152,
                             "ioValues": [
                                 {
@@ -481,8 +481,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.8480603448275863,
-                            "y": 0.5736677115987461,
+                            "x": 0.853448275862069,
+                            "y": 0.5799373040752351,
                             "uniqueID": 1717524858918,
                             "ioValues": [
                                 {
@@ -507,6 +507,34 @@
                                     "ioValue": 1717524858918
                                 }
                             ]
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "-x",
+                            "x": 0.5301724137931034,
+                            "y": 0.8714733542319749,
+                            "uniqueID": 1717525199611,
+                            "ioValues": [
+                                {
+                                    "name": "x",
+                                    "ioValue": 3
+                                }
+                            ],
+                            "currentEquation": "-x"
+                        },
+                        {
+                            "atomType": "Equation",
+                            "name": "x/2+3/2",
+                            "x": 0.14870689655172414,
+                            "y": 0.27272727272727276,
+                            "uniqueID": 1717525250606,
+                            "ioValues": [
+                                {
+                                    "name": "x",
+                                    "ioValue": 12
+                                }
+                            ],
+                            "currentEquation": "x/2+3/2"
                         }
                     ],
                     "allConnectors": [
@@ -559,7 +587,20 @@
                             "ap1ID": 1717437441771,
                             "ap2ID": 1717448488083
                         },
-                        null,
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "xDist",
+                            "ap2Primary": false,
+                            "ap1ID": 1717437441771,
+                            "ap2ID": 1717448868152
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "x",
+                            "ap2Primary": false,
+                            "ap1ID": 1717437441771,
+                            "ap2ID": 1717525199611
+                        },
                         {
                             "ap1Name": "result",
                             "ap2Name": "xDist",
@@ -604,13 +645,6 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1717437458943,
-                            "ap2ID": 1717447859060
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "geometry1",
                             "ap2Primary": false,
                             "ap1ID": 1717438062539,
@@ -622,6 +656,13 @@
                             "ap2Primary": true,
                             "ap1ID": 1717438062539,
                             "ap2ID": 1717448868152
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1717437458943,
+                            "ap2ID": 1717447859060
                         },
                         {
                             "ap1Name": "result",
@@ -650,6 +691,13 @@
                             "ap2Primary": false,
                             "ap1ID": 1717437498892,
                             "ap2ID": 1717438062539
+                        },
+                        {
+                            "ap1Name": "number or geometry",
+                            "ap2Name": "x",
+                            "ap2Primary": false,
+                            "ap1ID": 1717437736510,
+                            "ap2ID": 1717525250606
                         },
                         {
                             "ap1Name": "geometry",
@@ -685,6 +733,20 @@
                             "ap2Primary": false,
                             "ap1ID": 1717524858918,
                             "ap2ID": 1717437441472
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "yDist",
+                            "ap2Primary": false,
+                            "ap1ID": 1717525199611,
+                            "ap2ID": 1717448868152
+                        },
+                        {
+                            "ap1Name": "result",
+                            "ap2Name": "x length",
+                            "ap2Primary": false,
+                            "ap1ID": 1717525250606,
+                            "ap2ID": 1717437454752
                         }
                     ],
                     "unitsIndex": 0,
