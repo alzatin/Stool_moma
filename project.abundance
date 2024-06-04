@@ -1400,7 +1400,12 @@
             "x": 0.98,
             "y": 0.5,
             "uniqueID": 1717437032980,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1717437265134
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -1487,6 +1492,13 @@
             "ap2Primary": false,
             "ap1ID": 1717437265134,
             "ap2ID": 1717531187738
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1717437265134,
+            "ap2ID": 1717437032980
         },
         {
             "ap1Name": "geometry",
