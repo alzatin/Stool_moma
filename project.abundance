@@ -330,8 +330,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.6788793103448275,
-                            "y": 0.2664576802507837,
+                            "x": 0.6756465517241379,
+                            "y": 0.25705329153605017,
                             "uniqueID": 1717438062539,
                             "ioValues": [
                                 {
@@ -387,7 +387,7 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5496031746031745,
+                            "x": 0.5366379310344828,
                             "y": 0.5768025078369906,
                             "uniqueID": 1717437498892,
                             "ioValues": [
@@ -412,13 +412,13 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.7230603448275862,
-                            "y": 0.45454545454545453,
+                            "x": 0.7467672413793103,
+                            "y": 0.438871473354232,
                             "uniqueID": 1717448984635,
                             "ioValues": [
                                 {
                                     "name": "geometry2",
-                                    "ioValue": 1717449064389
+                                    "ioValue": 1717448868152
                                 },
                                 {
                                     "name": "geometry1",
@@ -456,13 +456,13 @@
                         {
                             "atomType": "Move",
                             "name": "Move",
-                            "x": 0.5226293103448275,
-                            "y": 0.8526645768025078,
+                            "x": 0.6799568965517242,
+                            "y": 0.7586206896551725,
                             "uniqueID": 1717448868152,
                             "ioValues": [
                                 {
                                     "name": "geometry",
-                                    "ioValue": 1717437498892
+                                    "ioValue": 1717438062539
                                 },
                                 {
                                     "name": "xDist",
@@ -494,99 +494,6 @@
                                     "ioValue": 1
                                 }
                             ]
-                        },
-                        {
-                            "atomType": "GitHubMolecule",
-                            "name": "Scale ",
-                            "x": 0.615301724137931,
-                            "y": 0.8871473354231975,
-                            "uniqueID": 1717449064389,
-                            "ioValues": [
-                                {
-                                    "name": "scale",
-                                    "ioValue": 1
-                                },
-                                {
-                                    "name": "shape",
-                                    "ioValue": 1717448868152
-                                }
-                            ],
-                            "topLevel": false,
-                            "allAtoms": [
-                                {
-                                    "atomType": "Input",
-                                    "name": "scale",
-                                    "x": 0.013333333333333334,
-                                    "y": 0.3730407523510972,
-                                    "uniqueID": 1717449064247,
-                                    "ioValues": []
-                                },
-                                {
-                                    "atomType": "Input",
-                                    "name": "shape",
-                                    "x": 0.013333333333333334,
-                                    "y": 0.5297805642633229,
-                                    "uniqueID": 1717449063829,
-                                    "ioValues": []
-                                },
-                                {
-                                    "atomType": "Code",
-                                    "name": "Code",
-                                    "x": 0.6972972972972973,
-                                    "y": 0.4231974921630094,
-                                    "uniqueID": 1717449064005,
-                                    "ioValues": [
-                                        {
-                                            "name": "shape",
-                                            "ioValue": 1717448868152
-                                        },
-                                        {
-                                            "name": "scale",
-                                            "ioValue": 1
-                                        }
-                                    ],
-                                    "code": "//Inputs:[shape, scale];\nconsole.log(shape)\nconsole.log(scale)\n\nreturn [library[shape].geometry[0].clone().scale(scale)]\n//what you return should be a replicad geometry\n\n//Learn more about all of the available methods at \n //https://replicad.xyz/docs/introapp/UserGuide.html \n"
-                                },
-                                {
-                                    "atomType": "Output",
-                                    "name": "Output",
-                                    "x": 0.98,
-                                    "y": 0.5,
-                                    "uniqueID": 1717449063668,
-                                    "ioValues": [
-                                        {
-                                            "name": "number or geometry",
-                                            "ioValue": 1717449064005
-                                        }
-                                    ]
-                                }
-                            ],
-                            "allConnectors": [
-                                {
-                                    "ap1Name": "number or geometry",
-                                    "ap2Name": "scale",
-                                    "ap2Primary": false,
-                                    "ap1ID": 1717449064247,
-                                    "ap2ID": 1717449064005
-                                },
-                                {
-                                    "ap1Name": "number or geometry",
-                                    "ap2Name": "shape",
-                                    "ap2Primary": false,
-                                    "ap1ID": 1717449063829,
-                                    "ap2ID": 1717449064005
-                                },
-                                {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "number or geometry",
-                                    "ap2Primary": false,
-                                    "ap1ID": 1717449064005,
-                                    "ap2ID": 1717449063668
-                                }
-                            ],
-                            "gitHubUniqueID": 801687224,
-                            "unitsIndex": 0,
-                            "fileTypeVersion": 1
                         },
                         {
                             "atomType": "Output",
@@ -652,13 +559,7 @@
                             "ap1ID": 1717437441771,
                             "ap2ID": 1717448488083
                         },
-                        {
-                            "ap1Name": "number or geometry",
-                            "ap2Name": "xDist",
-                            "ap2Primary": false,
-                            "ap1ID": 1717437441771,
-                            "ap2ID": 1717448868152
-                        },
+                        null,
                         {
                             "ap1Name": "result",
                             "ap2Name": "xDist",
@@ -716,6 +617,13 @@
                             "ap2ID": 1717448984635
                         },
                         {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1717438062539,
+                            "ap2ID": 1717448868152
+                        },
+                        {
                             "ap1Name": "result",
                             "ap2Name": "yDist",
                             "ap2Primary": false,
@@ -735,13 +643,6 @@
                             "ap2Primary": false,
                             "ap1ID": 1717448651255,
                             "ap2ID": 1717437458943
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1717437498892,
-                            "ap2ID": 1717448868152
                         },
                         {
                             "ap1Name": "geometry",
@@ -773,10 +674,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "shape",
+                            "ap2Name": "geometry2",
                             "ap2Primary": false,
                             "ap1ID": 1717448868152,
-                            "ap2ID": 1717449064389
+                            "ap2ID": 1717448984635
                         },
                         {
                             "ap1Name": "geometry",
@@ -784,13 +685,6 @@
                             "ap2Primary": false,
                             "ap1ID": 1717524858918,
                             "ap2ID": 1717437441472
-                        },
-                        {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "geometry2",
-                            "ap2Primary": false,
-                            "ap1ID": 1717449064389,
-                            "ap2ID": 1717448984635
                         }
                     ],
                     "unitsIndex": 0,
