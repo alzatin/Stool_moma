@@ -193,8 +193,8 @@
                     "allAtoms": [
                         {
                             "atomType": "Equation",
-                            "name": "x/2-1.3",
-                            "x": 0.14870689655172414,
+                            "name": "x/2-3",
+                            "x": 0.14116379310344826,
                             "y": 0.27272727272727276,
                             "uniqueID": 1717525250606,
                             "ioValues": [
@@ -203,7 +203,7 @@
                                     "ioValue": 12
                                 }
                             ],
-                            "currentEquation": "x/2-1.3"
+                            "currentEquation": "x/2-3"
                         },
                         {
                             "atomType": "Rectangle",
@@ -214,7 +214,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 4.7
+                                    "ioValue": 3
                                 },
                                 {
                                     "name": "y length",
@@ -331,8 +331,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.677801724137931,
-                            "y": 0.22570532915360503,
+                            "x": 0.6648706896551725,
+                            "y": 0.27272727272727276,
                             "uniqueID": 1717438062539,
                             "ioValues": [
                                 {
@@ -364,23 +364,6 @@
                             "currentEquation": "x -3"
                         },
                         {
-                            "atomType": "Rectangle",
-                            "name": "Rectangle",
-                            "x": 0.27370689655172414,
-                            "y": 0.7366771159874608,
-                            "uniqueID": 1717437458943,
-                            "ioValues": [
-                                {
-                                    "name": "x length",
-                                    "ioValue": 3
-                                },
-                                {
-                                    "name": "y length",
-                                    "ioValue": 15
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Move",
                             "name": "Move",
                             "x": 0.533405172413793,
@@ -402,6 +385,23 @@
                                 {
                                     "name": "zDist",
                                     "ioValue": 0
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.27370689655172414,
+                            "y": 0.7366771159874608,
+                            "uniqueID": 1717437458943,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
+                                    "ioValue": 3
+                                },
+                                {
+                                    "name": "y length",
+                                    "ioValue": 15
                                 }
                             ]
                         },
@@ -430,7 +430,7 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.7790948275862069,
+                            "x": 0.7823275862068966,
                             "y": 0.4137931034482759,
                             "uniqueID": 1717448984635,
                             "ioValues": [
@@ -513,8 +513,8 @@
                         {
                             "atomType": "Extrude",
                             "name": "Extrude",
-                            "x": 0.8577586206896552,
-                            "y": 0.5893416927899686,
+                            "x": 0.8642241379310344,
+                            "y": 0.5799373040752351,
                             "uniqueID": 1717524858918,
                             "ioValues": [
                                 {
@@ -684,17 +684,17 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 1717437458943,
-                            "ap2ID": 1717447859060
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "3D shape 9",
                             "ap2Primary": false,
                             "ap1ID": 1717437498892,
                             "ap2ID": 1717438062539
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 1717437458943,
+                            "ap2ID": 1717447859060
                         },
                         {
                             "ap1Name": "result",
