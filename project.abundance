@@ -16,6 +16,10 @@
         {
             "name": "leg width",
             "ioValue": 2
+        },
+        {
+            "name": "Leg height",
+            "ioValue": 18
         }
     ],
     "topLevel": true,
@@ -151,7 +155,7 @@
             "atomType": "Input",
             "name": "leg width",
             "x": 0.013333333333333334,
-            "y": 0.4984326018808777,
+            "y": 0.7398119122257053,
             "uniqueID": 1717528255145,
             "ioValues": []
         },
@@ -183,8 +187,8 @@
         {
             "atomType": "Molecule",
             "name": "leg side set",
-            "x": 0.16167120799273388,
-            "y": 0.6018808777429467,
+            "x": 0.17347865576748409,
+            "y": 0.6050156739811912,
             "uniqueID": 1717437297428,
             "ioValues": [
                 {
@@ -192,12 +196,12 @@
                     "ioValue": 2
                 },
                 {
-                    "name": "Leg height",
-                    "ioValue": 18
-                },
-                {
                     "name": "top width",
                     "ioValue": 12
+                },
+                {
+                    "name": "Leg height",
+                    "ioValue": 18
                 }
             ],
             "topLevel": false,
@@ -205,8 +209,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "leg side",
-                    "x": 0.27370689655172414,
-                    "y": 0.22570532915360503,
+                    "x": 0.23069936421435058,
+                    "y": 0.2006269592476489,
                     "uniqueID": 1717437441824,
                     "ioValues": [
                         {
@@ -622,8 +626,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.8879310344827587,
-                            "y": 0.7335423197492162,
+                            "x": 0.8910081743869209,
+                            "y": 0.7241379310344828,
                             "uniqueID": 1717527123999,
                             "ioValues": [
                                 {
@@ -909,8 +913,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.3803879310344827,
-                    "y": 0.29153605015673983,
+                    "x": 0.38056312443233425,
+                    "y": 0.2946708463949843,
                     "uniqueID": 1717525422226,
                     "ioValues": [
                         {
@@ -975,7 +979,7 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6158038147138964,
+                    "x": 0.6148955495004541,
                     "y": 0.2884012539184953,
                     "uniqueID": 1717527309802,
                     "ioValues": [
@@ -1006,8 +1010,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.6357856494096276,
-                    "y": 0.6050156739811912,
+                    "x": 0.6348773841961852,
+                    "y": 0.6269592476489029,
                     "uniqueID": 1717527996268,
                     "ioValues": [
                         {
@@ -1049,8 +1053,8 @@
                 {
                     "atomType": "Move",
                     "name": "Move",
-                    "x": 0.7157129881925521,
-                    "y": 0.8338557993730408,
+                    "x": 0.7729336966394187,
+                    "y": 0.7304075235109718,
                     "uniqueID": 1717528013171,
                     "ioValues": [
                         {
@@ -1205,8 +1209,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.516802906448683,
-            "y": 0.6802507836990596,
+            "x": 0.5149863760217983,
+            "y": 0.6363636363636364,
             "uniqueID": 1717527774598,
             "ioValues": [
                 {
@@ -1222,8 +1226,8 @@
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.7647593097184378,
-            "y": 0.47335423197492166,
+            "x": 0.7593097184377839,
+            "y": 0.47648902821316613,
             "uniqueID": 1717437265134,
             "ioValues": [
                 {
@@ -1268,6 +1272,14 @@
             "y": 0.5,
             "uniqueID": 1717437032980,
             "ioValues": []
+        },
+        {
+            "atomType": "Input",
+            "name": "Leg height",
+            "x": 0.013333333333333334,
+            "y": 0.5642633228840126,
+            "uniqueID": 1717529835242,
+            "ioValues": []
         }
     ],
     "allConnectors": [
@@ -1291,6 +1303,13 @@
             "ap2Primary": false,
             "ap1ID": 1717437039851,
             "ap2ID": 1717437069579
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "top width",
+            "ap2Primary": false,
+            "ap1ID": 1717437039851,
+            "ap2ID": 1717437297428
         },
         {
             "ap1Name": "number or geometry",
@@ -1333,6 +1352,13 @@
             "ap2Primary": false,
             "ap1ID": 1717527725488,
             "ap2ID": 1717527774598
+        },
+        {
+            "ap1Name": "number or geometry",
+            "ap2Name": "Leg height",
+            "ap2Primary": false,
+            "ap1ID": 1717529835242,
+            "ap2ID": 1717437297428
         }
     ],
     "unitsIndex": 0,
