@@ -173,31 +173,6 @@
             "ioValues": []
         },
         {
-            "atomType": "Move",
-            "name": "Move",
-            "x": 0.47683923705722076,
-            "y": 0.322884012539185,
-            "uniqueID": 1717528150072,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1717531228125
-                },
-                {
-                    "name": "xDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 18
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "leg side set",
             "x": 0.1894273127753304,
@@ -226,8 +201,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "leg side",
-                    "x": 0.21889191643960038,
-                    "y": 0.21003134796238243,
+                    "x": 0.21365638766519823,
+                    "y": 0.2037617554858934,
                     "uniqueID": 1717437441824,
                     "ioValues": [
                         {
@@ -1311,12 +1286,62 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.47683923705722076,
+            "y": 0.322884012539185,
+            "uniqueID": 1717528150072,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1717531228125
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 18
+                }
+            ]
+        },
+        {
             "atomType": "Input",
             "name": "leg width",
             "x": 0.013333333333333334,
             "y": 0.7398119122257053,
             "uniqueID": 1717528255145,
             "ioValues": []
+        },
+        {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.31698455949137144,
+            "y": 0.677115987460815,
+            "uniqueID": 1717527725488,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1717437297428
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 90
+                }
+            ]
         },
         {
             "atomType": "Assembly",
@@ -1366,31 +1391,6 @@
                 {
                     "name": "Spacing",
                     "ioValue": 5
-                }
-            ]
-        },
-        {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.31698455949137144,
-            "y": 0.677115987460815,
-            "uniqueID": 1717527725488,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": 1717437297428
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 90
                 }
             ]
         },
@@ -1452,13 +1452,6 @@
             "ap2ID": 1717437297428
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 3",
-            "ap2Primary": false,
-            "ap1ID": 1717528150072,
-            "ap2ID": 1717437265134
-        },
-        {
             "ap1Name": "Geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
@@ -1473,11 +1466,25 @@
             "ap2ID": 1717527774598
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1717528150072,
+            "ap2ID": 1717437265134
+        },
+        {
             "ap1Name": "number or geometry",
             "ap2Name": "leg width",
             "ap2Primary": false,
             "ap1ID": 1717528255145,
             "ap2ID": 1717437297428
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 1",
+            "ap2Primary": false,
+            "ap1ID": 1717527725488,
+            "ap2ID": 1717527774598
         },
         {
             "ap1Name": "geometry",
@@ -1499,13 +1506,6 @@
             "ap2Primary": false,
             "ap1ID": 1717437265134,
             "ap2ID": 1717437032980
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 1",
-            "ap2Primary": false,
-            "ap1ID": 1717527725488,
-            "ap2ID": 1717527774598
         }
     ],
     "unitsIndex": 0,
